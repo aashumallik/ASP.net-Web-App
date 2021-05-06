@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17BCB9DF-A35B-4BEF-B32B-0824CF36A625}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FirestoneWebTemplate</RootNamespace>
+    <AssemblyName>FirestoneWebTemplate</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FirestoneWebSupportLibrary, Version=2.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FirestoneWebSupportLibrary\bin\Release\FirestoneWebSupportLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\FirestoneWebTemplate.dll" />
+    <Content Include="bin\FirestoneWebTemplate.pdb" />
+    <Content Include="bin\Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\System.Web.Helpers.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Connected Services\EmailService\EmailService.disco" />
+    <None Include="Connected Services\EmailService\configuration91.svcinfo" />
+    <None Include="Connected Services\EmailService\configuration.svcinfo" />
+    <None Include="Connected Services\EmailService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Copy_Default.aspx" />
+    <Content Include="Email.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Formappoval.aspx" />
+    <Content Include="Form_request.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\EditSaveDelete.png" />
+    <Content Include="Images\Find.jpg" />
+    <Content Include="NotAllowed.html" />
+    <Content Include="NotAllowedIFRAME.html" />
+    <Content Include="ReservedFiles\ajax-loader.gif" />
+    <Content Include="ReservedFiles\Images\ajax-loader.gif" />
+    <Content Include="ReservedFiles\Images\background_sliver.png" />
+    <Content Include="ReservedFiles\Images\Bridgestone_ag_header.jpg" />
+    <Content Include="ReservedFiles\Images\Canada.gif" />
+    <Content Include="ReservedFiles\Images\close.gif" />
+    <Content Include="ReservedFiles\Images\down.png" />
+    <Content Include="ReservedFiles\Images\drop-arrow.gif" />
+    <Content Include="ReservedFiles\Images\ControlSprit.png" />
+    <Content Include="ReservedFiles\Images\first.png" />
+    <Content Include="ReservedFiles\Images\first_disabled.png" />
+    <Content Include="ReservedFiles\Images\left.png" />
+    <Content Include="ReservedFiles\Images\next-white.png" />
+    <Content Include="ReservedFiles\Images\previous-white.png" />
+    <Content Include="ReservedFiles\Images\previous.png" />
+    <Content Include="ReservedFiles\Images\previous_disabled.png" />
+    <Content Include="ReservedFiles\Images\next_disabled.png" />
+    <Content Include="ReservedFiles\Images\next.png" />
+    <Content Include="ReservedFiles\Images\last_disabled.png" />
+    <Content Include="ReservedFiles\Images\last.png" />
+    <Content Include="ReservedFiles\Images\right-arrow.gif" />
+    <Content Include="ReservedFiles\Images\right.png" />
+    <Content Include="ReservedFiles\Images\UnitedStates.gif" />
+    <Content Include="ReservedFiles\Images\up.png" />
+    <Content Include="ReservedFiles\Images\warning.gif" />
+    <Content Include="ReservedFiles\Scripts\angular-1.3.10.js" />
+    <Content Include="ReservedFiles\Scripts\angular-route-1.3.10.js" />
+    <Content Include="ReservedFiles\Scripts\angular-route.js" />
+    <Content Include="ReservedFiles\Scripts\angular-sanitize.min.js" />
+    <Content Include="ReservedFiles\Scripts\angular-ui.min.js" />
+    <Content Include="ReservedFiles\Scripts\angular.js" />
+    <Content Include="ReservedFiles\Scripts\directives\helperMessages.js" />
+    <Content Include="ReservedFiles\Scripts\directives\listBoxDirective.js" />
+    <Content Include="ReservedFiles\Scripts\directives\dirPagination.js" />
+    <Content Include="ReservedFiles\Scripts\fsAngularApp.js" />
+    <Content Include="ReservedFiles\Scripts\jquery-1.10.2.js" />
+    <Content Include="ReservedFiles\Scripts\jquery-ui-1.10.4.custom.js" />
+    <Content Include="ReservedFiles\Scripts\jquery.json-2.4.js" />
+    <Content Include="ReservedFiles\Scripts\jquery.timepicker.min.js" />
+    <Content Include="ReservedFiles\Scripts\json2.js" />
+    <Content Include="ReservedFiles\Scripts\json2.min.js" />
+    <Content Include="ReservedFiles\Scripts\toastr.js" />
+    <Content Include="ReservedFiles\Scripts\ui-bootstrap-custom-0.12.0.js" />
+    <Content Include="ReservedFiles\Scripts\ui-bootstrap-custom-0.14.3.js" />
+    <Content Include="ReservedFiles\Scripts\ui-bootstrap-custom-0.14.3.min.js" />
+    <Content Include="ReservedFiles\Scripts\ui-bootstrap-custom-tpls-0.12.0.js" />
+    <Content Include="ReservedFiles\Scripts\ui-bootstrap-custom-tpls-0.14.3.js" />
+    <Content Include="ReservedFiles\Scripts\ui-bootstrap-custom-tpls-0.14.3.min.js" />
+    <Content Include="ReservedFiles\Styles\standardStyle.css" />
+    <Content Include="ReservedFiles\Styles\toastr.css" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\animated-overlay.gif" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\jquery-ui-1.10.4.custom.css" />
+    <Content Include="ReservedFiles\Styles\ui-lightness\jquery-ui-1.10.4.custom.min.css" />
+    <Content Include="ReservedFiles\templates\dirPagination.tpl.html" />
+    <Content Include="ReservedFiles\templates\list-box.html" />
+    <Content Include="Scripts\EmailController.js" />
+    <Content Include="Scripts\SampleSpecsCtrl.js" />
+    <Content Include="Scripts\SecurityService_JS.js" />
+    <Content Include="Services\SecurityService.asmx" />
+    <Content Include="Services\WebTemplateService.asmx" />
+    <Content Include="Styles\FirestoneWebTemplate.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\FireStoneDBO.cs" />
+    <Compile Include="Classes\Email.cs" />
+    <Compile Include="Classes\SampleSpecs.cs" />
+    <Compile Include="Connected Services\EmailService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Copy_Default.aspx.cs">
+      <DependentUpon>Copy_Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Copy_Default.aspx.designer.cs">
+      <DependentUpon>Copy_Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Email.aspx.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Email.aspx.designer.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formappoval.aspx.cs">
+      <DependentUpon>Formappoval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formappoval.aspx.designer.cs">
+      <DependentUpon>Formappoval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form_request.aspx.cs">
+      <DependentUpon>Form_request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form_request.aspx.designer.cs">
+      <DependentUpon>Form_request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\SecurityService.asmx.cs">
+      <DependentUpon>SecurityService.asmx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\WebTemplateService.asmx.cs">
+      <DependentUpon>WebTemplateService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\EmailService\EmailService.wsdl" />
+    <None Include="Connected Services\EmailService\EmailService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\EmailService\EmailService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\EmailService\EmailService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\EmailService\EmailService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\PublishProfiles\Web19.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ReservedFiles\Code\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\EmailService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56306</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58494/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,185 @@
+﻿
+
+.divSpecTable {
+    width:745px
+}
+
+.divEmailTable {
+    display: table-row;
+    width: 745px
+}
+.emailInput {
+    width: 149px;
+    margin-left: 15px;
+}
+
+.emailLabel {
+    display: block;
+    text-align: right;
+}
+.divEmailDetail {
+    display: table-row;
+    height: 1.6em;
+    color: black;
+}
+
+    .divEmailDetail > span {
+        display: table-cell;
+        margin-top: 4px;
+    }
+
+    /*.divEmailDetail span input {
+    background-color:yellow;
+}*/
+
+
+    .divEmailDetail div:nth-of-type(1) {
+        width: 75px;
+    }
+
+
+    .divEmailDetail div:nth-of-type(2) {
+        width: 150px;
+    }
+
+
+    .divEmailDetail div:nth-of-type(3) {
+        width: 75px;
+    }
+
+
+    .divEmailDetail div:nth-of-type(4) {
+        width: 200px;
+    }
+
+
+    .divEmailDetail div:nth-of-type(5) {
+        width: 75px;
+        text-align: center;
+    }
+
+
+    .divEmailDetail div:nth-of-type(6) {
+        width: 75px;
+        text-align: center;
+    }
+
+    .divEmailDetail div:nth-of-type(7) {
+        width: 73px;
+    }
+
+
+    .divEmailDetail span:nth-of-type(5) input {
+        width: 71px;
+        text-align: center;
+    }
+
+
+    .divEmailDetail span:nth-of-type(6) input {
+        width: 72px;
+        text-align: center;
+    }
+
+.divSampleSpecsHeader {
+    width:100%;
+}
+
+.divSampleSpecsHeader span:nth-of-type(1) {
+    width:95px;
+}
+
+
+.divSampleSpecsHeader span:nth-of-type(2) {
+    width:150px; 
+}
+
+
+.divSampleSpecsHeader span:nth-of-type(3) {
+    width:75px;
+}
+
+
+.divSampleSpecsHeader span:nth-of-type(4) {
+    width:200px;
+}
+
+
+.divSampleSpecsHeader span:nth-of-type(5) {
+    width:75px;    
+}
+
+
+.divSampleSpecsHeader span:nth-of-type(6) {
+    width:75px;    
+}
+
+.divSampleSpecsHeader span:nth-of-type(7) {    
+    width:75px;    
+}
+
+
+
+.divSampleSpecsDetail {    
+    width:100%;
+}
+
+
+.divSampleSpecsDetail span input {
+    background-color:yellow;
+}
+
+
+.divSampleSpecsDetail div:nth-of-type(1) {
+    width:75px;    
+}
+
+
+.divSampleSpecsDetail div:nth-of-type(2) {
+    width:150px;        
+}
+
+
+.divSampleSpecsDetail div:nth-of-type(3) {
+    width:75px;
+}
+
+
+.divSampleSpecsDetail div:nth-of-type(4) {
+    width:200px;
+}
+
+
+.divSampleSpecsDetail div:nth-of-type(5) {
+    width:75px;
+    text-align:center;
+}
+
+
+.divSampleSpecsDetail div:nth-of-type(6) {
+    width:75px;
+    text-align:center;    
+}
+
+.divSampleSpecsDetail div:nth-of-type(7) {
+    width:73px;    
+}
+
+
+.divSampleSpecsDetail span:nth-of-type(5) input {
+    width:71px;
+    text-align:center;
+}
+
+
+.divSampleSpecsDetail span:nth-of-type(6) input {
+    width:72px;
+    text-align:center;    
+}
+
+
+
+.divFilter img {
+    height:25px;
+    width:25px;
+}
+

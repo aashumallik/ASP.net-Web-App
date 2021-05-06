@@ -1,0 +1,35 @@
+﻿<div class="list-box">
+    <div>
+        <span ng-if="allowUserSortLeft"></span>
+        <span class="label">{{::leftHeader}}</span>
+        <span></span>
+        <span class="label">
+            <span ng-class="::{'required': required}">{{::rightHeader}}</span>
+            <span class="error">{{errorText}}</span>
+        </span>
+    </div>
+    <div>
+        <span ng-if="allowUserSortLeft" class="fsListBoxCenteredButtons">
+            <span><a class="fsUpImage" ng-click="moveUp(toMoveRight, leftSide)">&nbsp;</a></span>
+            <span><a class="fsDownImage" ng-click="moveDown(toMoveRight, leftSide)">&nbsp;</a></span>
+        </span>
+        <span>
+            <select multiple size="{{selectSize}}" ng-model="toMoveRight" ng-options="item.Display for item in leftSide | orderBy: (!allowUserSortLeft || undefined) && sortBy"></select>
+        </span>
+        <span class="fsListBoxCenteredButtons">
+            <span>
+                <a class="fsRightImage" ng-click="moveRight()">&nbsp;</a>
+            </span>
+            <span>
+                <a class="fsLeftImage" ng-click="moveLeft()">&nbsp;</a>
+            </span>
+        </span>
+        <span>
+            <select multiple size="{{selectSize}}" ng-model="toMoveLeft" ng-options="item as item.Display for item in rightSide | orderBy: (!allowUserSortRight || undefined) && sortBy"></select>
+        </span>
+        <span ng-if="allowUserSortRight" class="fsListBoxCenteredButtons">
+            <span><a class="fsUpImage" ng-click="moveUp(toMoveLeft, rightSide)">&nbsp;</a></span>
+            <span><a class="fsDownImage" ng-click="moveDown(toMoveLeft, rightSide)">&nbsp;</a></span>
+        </span>
+    </div>
+</div>

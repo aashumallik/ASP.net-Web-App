@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="EmailService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://web4-ag-plt/EmailService/EmailService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://web4-ag-plt/EmailService/EmailService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://web4-ag-plt/EmailService/EmailService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EmailService" />
+      <xsd:import schemaLocation="http://web4-ag-plt/EmailService/EmailService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEmailRestService_SendSQLEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendSQLEmail" />
+  </wsdl:message>
+  <wsdl:message name="IEmailRestService_SendSQLEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendSQLEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_SendEmailAttachment_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendEmailAttachment" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_SendEmailAttachment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendEmailAttachmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_SendEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendEmail" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_SendEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_SendAppointment_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendAppointment" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_SendAppointment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_FireEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:FireEvent" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_FireEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FireEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_FireEventOverrideSenders_InputMessage">
+    <wsdl:part name="parameters" element="tns:FireEventOverrideSenders" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_FireEventOverrideSenders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FireEventOverrideSendersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_FireApplicationEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:FireApplicationEvent" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_FireApplicationEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FireApplicationEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_FireApplicationEventOverrideSenders_InputMessage">
+    <wsdl:part name="parameters" element="tns:FireApplicationEventOverrideSenders" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_FireApplicationEventOverrideSenders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FireApplicationEventOverrideSendersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_CreateEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateEvent" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_CreateEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_RemoveEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveEvent" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_RemoveEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_CreateSubscription_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateSubscription" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_CreateSubscription_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateSubscriptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_CreateApplicationEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateApplicationEvent" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_CreateApplicationEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateApplicationEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_RemoveSubscriptionEventEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveSubscriptionEventEmail" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_RemoveSubscriptionEventEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveSubscriptionEventEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_RemoveSubscription_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveSubscription" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_RemoveSubscription_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveSubscriptionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_GetSubscriptionsByEventId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSubscriptionsByEventId" />
+  </wsdl:message>
+  <wsdl:message name="IEmailService_GetSubscriptionsByEventId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSubscriptionsByEventIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IEmailRestService">
+    <wsdl:operation name="SendSQLEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailRestService/SendSQLEmail" message="tns:IEmailRestService_SendSQLEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailRestService/SendSQLEmailResponse" message="tns:IEmailRestService_SendSQLEmail_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IEmailService">
+    <wsdl:operation name="SendEmailAttachment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/SendEmailAttachment" message="tns:IEmailService_SendEmailAttachment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/SendEmailAttachmentResponse" message="tns:IEmailService_SendEmailAttachment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/SendEmail" message="tns:IEmailService_SendEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/SendEmailResponse" message="tns:IEmailService_SendEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendAppointment">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/SendAppointment" message="tns:IEmailService_SendAppointment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/SendAppointmentResponse" message="tns:IEmailService_SendAppointment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FireEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/FireEvent" message="tns:IEmailService_FireEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/FireEventResponse" message="tns:IEmailService_FireEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FireEventOverrideSenders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/FireEventOverrideSenders" message="tns:IEmailService_FireEventOverrideSenders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/FireEventOverrideSendersResponse" message="tns:IEmailService_FireEventOverrideSenders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FireApplicationEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/FireApplicationEvent" message="tns:IEmailService_FireApplicationEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/FireApplicationEventResponse" message="tns:IEmailService_FireApplicationEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FireApplicationEventOverrideSenders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/FireApplicationEventOverrideSenders" message="tns:IEmailService_FireApplicationEventOverrideSenders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/FireApplicationEventOverrideSendersResponse" message="tns:IEmailService_FireApplicationEventOverrideSenders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/CreateEvent" message="tns:IEmailService_CreateEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/CreateEventResponse" message="tns:IEmailService_CreateEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/RemoveEvent" message="tns:IEmailService_RemoveEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/RemoveEventResponse" message="tns:IEmailService_RemoveEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateSubscription">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/CreateSubscription" message="tns:IEmailService_CreateSubscription_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/CreateSubscriptionResponse" message="tns:IEmailService_CreateSubscription_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateApplicationEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/CreateApplicationEvent" message="tns:IEmailService_CreateApplicationEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/CreateApplicationEventResponse" message="tns:IEmailService_CreateApplicationEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSubscriptionEventEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/RemoveSubscriptionEventEmail" message="tns:IEmailService_RemoveSubscriptionEventEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/RemoveSubscriptionEventEmailResponse" message="tns:IEmailService_RemoveSubscriptionEventEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSubscription">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/RemoveSubscription" message="tns:IEmailService_RemoveSubscription_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/RemoveSubscriptionResponse" message="tns:IEmailService_RemoveSubscription_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSubscriptionsByEventId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmailService/GetSubscriptionsByEventId" message="tns:IEmailService_GetSubscriptionsByEventId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmailService/GetSubscriptionsByEventIdResponse" message="tns:IEmailService_GetSubscriptionsByEventId_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IEmailService" type="tns:IEmailService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendEmailAttachment">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/SendEmailAttachment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/SendEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendAppointment">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/SendAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FireEvent">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/FireEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FireEventOverrideSenders">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/FireEventOverrideSenders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FireApplicationEvent">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/FireApplicationEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FireApplicationEventOverrideSenders">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/FireApplicationEventOverrideSenders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateEvent">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/CreateEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveEvent">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/RemoveEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSubscription">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/CreateSubscription" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateApplicationEvent">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/CreateApplicationEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSubscriptionEventEmail">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/RemoveSubscriptionEventEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveSubscription">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/RemoveSubscription" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSubscriptionsByEventId">
+      <soap:operation soapAction="http://tempuri.org/IEmailService/GetSubscriptionsByEventId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmailService">
+    <wsdl:port name="BasicHttpBinding_IEmailService" binding="tns:BasicHttpBinding_IEmailService">
+      <soap:address location="http://web4-ag-plt/EmailService/EmailService.svc/EmailService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,1008 @@
+﻿
+body {
+    display:inline-block;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-size: .9em;    
+    position: relative;    
+    color:black;
+    background-color:white;
+    margin-top:0px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:auto;
+    padding-top: 0px;        
+}
+
+
+.fsPage {
+    display:inline-block;    
+    height:100%;
+    width:100%;
+    min-width:1100px;
+    background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    border-bottom: 1px dotted #7a7a7a;
+    border-left: 1px dotted gray;
+    border-right: 1px dotted gray;    
+}
+
+.fsBody {
+    display:inline-block;    
+    position:relative;
+    margin-top:5px;            
+    min-height:800px;    
+    min-width:1100px;
+    width:99vw;
+}
+
+
+.fsTitleLabel {
+    background: linear-gradient(red, black);
+}
+
+
+.fsHeaderContainer {
+    display:inline-block;
+    width:100%;   
+    min-width:800px; 
+    background-color:white;
+    padding-bottom:5px;     
+}
+
+.fsTitleContainer {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 20%;
+    /*height: 150px; /*3-9-2020 - JH - Shrinking down slightly*/
+    height: 130px;
+    text-align: center;
+    background: linear-gradient(red, black);
+}
+
+.fsTitle {
+    display:inline-block;
+    width: 100%;
+    font-size:1.2em;
+    margin-left:5px;    
+    color:white;
+    font-weight:bold;
+}
+
+.fsSystemName {
+    display:inline-block;
+    width: 100%;
+    font-size:1em;
+    margin-left:5px;    
+    color:white;
+    font-weight:bold;
+}
+
+
+.fsApplicationName {
+    display:inline-block;
+    width: 100%;
+    font-size:1em;
+    margin-left:5px;    
+    color:white;
+    font-weight:bold;
+}
+
+.fsLocation {
+    display:inline-block;
+    width: 100%;
+    font-size:1em;
+    margin-left:5px;    
+    color:white;
+    font-weight:bold;
+}
+
+
+.fsUser {
+    display:inline-block;
+    width: 100%;
+    font-size:.75em;    
+    margin-left: 5px;
+    color: yellow;
+    font-weight: bold;
+}
+
+
+.fsDepartmentSecurity {
+    /*JH 3-9-2020 - Do not want this displayed going forward.*/
+    display: none;
+    /*display: inline-block;*/
+    width: 100%;
+    font-size: .75em;
+    margin-left: 5px;
+    color: yellow;
+    font-weight: bold;
+}
+
+.fsSecurity {
+    display:inline-block;
+    width: 100%;
+    font-size:.75em;    
+    margin-left: 5px;
+    color: yellow;
+    font-weight: bold;
+}
+
+
+.fsSecurity span {
+    margin-right:5px;
+}
+
+.fsHeader {
+    display:inline-block;    
+    width:70%;    
+}
+
+.fsLanguage {
+    float:right;
+    margin-top:12px;
+}
+
+
+.fsLanguage span {
+    margin-right:5px;
+}
+
+
+
+.fsHeaderImage
+{       
+    display:inline-block;
+    height:40px;    
+    width:840px;
+    background-size: 840px 40px;    
+    background-image: url(../../ReservedFiles/Images/Bridgestone_ag_header.jpg);
+    background-repeat: no-repeat;    
+    background-color:white;        
+}
+
+
+.fsTabMenu 
+{     
+    display:block;    
+    height:29px;
+    width:65%;
+    margin-top:-3px;
+    background-color:white;    
+    
+}
+
+
+.fsTabMenu ul 
+{   
+    display:inline-block;
+    margin-top:1px;
+    padding-top:1px;
+    padding-bottom:0px;
+    background-color:white;    
+}
+
+.fsTabMenu ul li {    
+    display:inline-block;
+    border-bottom: 1px solid black;
+    padding-left:5px;    
+    padding-right:5px;    
+    border-left: dashed 1px black;    
+}
+
+
+.fsTabMenu ul li a {       
+    display:block;
+    text-decoration:none;    
+    text-align:center;    
+    color:gray;
+    font-weight: bold;
+    font-size:1em; 
+    padding:3px;   
+    
+}
+
+
+.fsTabMenu ul li a:hover {
+    cursor:pointer;
+    color:white;
+    background-color: rgb(175,10,10);
+}
+
+.fsTabMenu .Selected a
+{
+	background-image: none;
+    color:white;
+    background-color: rgb(175,10,10);
+}
+
+
+.fsTabMenu li:first-child 
+{
+    border-left: none;
+    margin-left:-40px;
+}
+
+
+
+/**************************************************************************************************************************/
+/* File Menu with multi drop down                                                                                         */
+/**************************************************************************************************************************/
+.fsFileMenu {
+    display: none; /*JH 3-9-2020 - Dont want this displayed going forward*/
+    height: 17px;
+    width: 100%;
+}
+
+
+.fsFileMenu ul ul 
+{
+	display: none;
+}
+
+.fsFileMenu ul li:hover > ul 
+{
+	display: block;
+}
+
+.fsFileMenu ul 
+{
+    display: inline-block;	
+	margin-top:0px;    
+	list-style: none;
+}
+
+
+.fsFileMenu ul:after 
+{   
+    display: block;
+    content: ""; 
+    clear: both;     
+}
+
+
+.fsFileMenu ul li 
+{
+	float: left;    
+}
+
+
+.fsFileMenu ul li:hover 
+{
+	background: #4b545f;
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+
+.fsFileMenu ul li:hover a 
+{
+    color: white;    
+}
+	
+.fsFileMenu ul li a 
+{
+	display: block; 
+    padding: 3px 15px;
+    font-size: 0.8em;
+    font-weight:600;
+	color: black;    
+}
+
+
+.fsFileMenu ul ul 
+{
+	background: #5f6975; 
+    border-radius: 0px; 
+    padding: 0;
+	position: absolute; 
+    top: 100%;
+}
+	
+
+.fsFileMenu ul ul li 
+{
+    float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+		
+.fsFileMenu ul ul li a 
+{
+	padding: 3px 15px;
+	color: #fff;
+}	
+			
+.fsFileMenu ul ul li a:hover 
+{
+    background: #4b545f;
+}
+
+.fsFileMenu ul ul ul {
+	position: absolute; 
+    left: 100%;
+    top:0;    
+}
+
+
+/**************************************************************************************************************************/
+/* Navigation                                                                                                             */
+/**************************************************************************************************************************/
+.fsNavigation {
+    display:inline-block;
+    padding-left:5px;
+    font-size: 1em;    
+    vertical-align:top;     
+}
+
+
+.fsNavigationLeft {
+    border-right: .5px solid #7a7a7a;    
+    min-height:850px;    
+    width:20%;    
+}
+
+.fsNavigationRight {
+    float:right;
+    border-left: .5px solid #7a7a7a;    
+    min-height:850px;    
+    width:20%;    
+}
+
+.fsNavigationTop {
+    min-height: 150px;
+    border-bottom: .5px solid #7a7a7a;
+    width:100%;
+}
+
+.fsNavigationMenu {
+    display:inline-block;
+    vertical-align: top;        
+    width:100%;
+    height:100%;
+    color:#af0a0a;
+}
+
+.fsNavigationMenu a {
+    display:block;    
+    color:#af0a0a;
+}
+
+
+/**************************************************************************************************************************/
+/* Contents                                                                                                               */
+/**************************************************************************************************************************/
+.fsContents {
+    display:inline-block;
+    padding-left: 5px;
+    position:relative;    
+    width:78.5%;    
+}
+
+/**************************************************************************************************************************/
+/* Footer                                                                                                                 */
+/**************************************************************************************************************************/
+.fsFooter {    
+    text-align:center;
+    font-size:10px;    
+}
+
+
+/**************************************************************************************************************************/
+/* Tables                                                                                                                 */
+/**************************************************************************************************************************/
+
+.fsTableContainer {
+    display: inline-block;
+}
+
+.fsTable {
+    display:table;
+    height:100%;    
+}
+
+.fsTableTitle {
+    display:block;
+    width: 100%;
+    font-size:1.1em;
+    text-align:center;
+    color:white;
+    background: linear-gradient(red, black);    
+}
+
+.fsTableHeader {
+    display:table-row;    
+    margin-bottom:1px;
+    border-bottom :solid 1px black;
+    background-color:black;
+    background: linear-gradient(red, black);    
+}
+
+
+.fsTableHeader>span {
+    display:table-cell;
+    font-size:1em;
+    font-weight:bold; 
+    color:white;        
+}
+
+
+
+.fsTableHeader>span:nth-of-type(1) {
+    margin-left:5px;
+}
+
+.fsTableHeaderTitle {
+    display:table-row;    
+    margin-bottom:1px;
+    border-bottom :solid 1px black;
+    background-color:black;
+}
+
+
+.fsTableHeaderTitle>span {
+    display:table-cell;
+    font-size:1em;
+    font-weight:bold; 
+    color:white;        
+}
+
+
+
+.fsTableHeaderTitle>span:nth-of-type(1) {
+    margin-left:5px;
+}
+
+
+.fsTableDetail {        
+    display: table-row;    
+    height:1.6em;    
+    color: black;     
+}
+
+
+.fsTableDetail>span {
+    display:table-cell;
+    margin-top:4px;    
+}
+
+
+.fsTableDetail>span:first-child {    
+    border-left :solid 1px gray;     
+    padding-left:5px;
+}
+
+
+.fsTableDetail>span:last-child {    
+    border-right :solid 1px gray;     
+    padding-right:5px;
+}
+
+
+.fsTableDetail:nth-child(odd) {
+    background-color:lightgray;           
+}
+
+.fsTableDetail:last-child > span {
+    border-bottom: solid 1px gray;
+}
+
+/**************************************************************************************************************************/
+/* Button Images                                                                                                          */
+/**************************************************************************************************************************/
+.fsEditImage {  
+    display:inline-block;        
+    width: 18px;          
+    height:18px;        
+    background-image: url(../../ReservedFiles/Images/ControlSprit.png);
+    background-repeat:no-repeat;
+    background-position-x: 0px;
+    background-position-y: 3px;
+    cursor: pointer;
+    color: transparent;     
+}
+
+.fsSaveImage {  
+    display:inline-block;        
+    width: 18px;          
+    height:18px;        
+    background-image: url(../../ReservedFiles/Images/ControlSprit.png);
+    background-repeat:no-repeat;
+    background-position-x: -37px;
+    background-position-y: 2px;
+    cursor: pointer;
+    color: transparent;
+}
+
+
+.fsDeleteImage {
+    display:inline-block;        
+    width: 18px;          
+    height:18px;    
+    background-image: url(../../ReservedFiles/Images/ControlSprit.png);
+    background-repeat:no-repeat;    
+    background-position-x: -19px;
+    background-position-y: 3px;
+    cursor: pointer;
+    color: transparent;     
+}
+
+
+.fsLargeFilterImage {
+    display:inline-block;        
+    width: 18px;
+    height:18px;    
+    background-image: url(../../ReservedFiles/Images/ControlSprit.png);
+    background-repeat:no-repeat;    
+    background-position-x: -72px;
+    background-position-y: 3px;    
+    cursor: pointer;
+    color: transparent;     
+}
+
+
+.fsSmallFilterImage {
+    display:inline-block;    
+    width: 12px;
+    height:21px;    
+    background-image: url(../../ReservedFiles/Images/ControlSprit.png);
+    background-repeat:no-repeat;    
+    background-position-x: -74px;
+    background-position-y: 5px;    
+    cursor: pointer;
+    color: transparent;    
+}
+
+.fsLeftImage {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../ReservedFiles/Images/left.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    cursor: pointer;
+    color:transparent;
+}
+
+.fsRightImage {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../ReservedFiles/Images/right.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    cursor: pointer;
+    color:transparent;
+}
+
+.fsUpImage {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../ReservedFiles/Images/up-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    cursor: pointer;
+    color:transparent;
+}
+
+.fsDownImage {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../ReservedFiles/Images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    cursor: pointer;
+    color:transparent;
+}
+
+
+/**************************************************************************************************************************/
+/* Buttons                                                                                                                */
+/**************************************************************************************************************************/
+.fsButtons {
+    display:inline-block;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    border:2px outset grey;    
+    font-size:10px;
+    width:65px;
+    height:20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color:grey;
+    font-weight:bold; 
+    color:white;   
+    text-align:center;    
+    padding-bottom:2px;
+}
+
+.fsButtons:hover {
+    cursor: pointer;
+}
+
+.fsButtons[disabled] {
+    background-color: #bbb;
+    border-color: #bbb;
+    color: #dfdfdf;
+}
+
+.fsListBoxCenteredButtons {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/**************************************************************************************************************************/
+/* Message                                                                                                                */
+/**************************************************************************************************************************/
+.fsMessage {
+    position:absolute;    
+    padding:2px;
+    width:100px;
+    background-color:gray;
+    color:white;
+    font-weight:bold;
+    border:solid 1px black;
+}
+
+/**************************************************************************************************************************/
+/* Modal                                                                                                                  */
+/**************************************************************************************************************************/
+.modal-open {
+    overflow: hidden;
+}
+.modal {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+.modal-content {
+    position: relative;
+    background: #efefef; 
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: 0;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000000;
+}
+.modal-backdrop.fade {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.modal-backdrop.in {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: linear-gradient(red, black);
+    color: white;
+}
+.modal-header .close {
+    margin-top: -2px;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+.modal-footer .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    .modal-sm {
+        width: 300px;
+    }
+}
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 900px;
+    }
+}
+
+/**************************************************************************************************************************/
+/* Pagination                                                                                                             */
+/**************************************************************************************************************************/
+.pagination {
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 2px;
+}
+
+.pagination li.disabled a {
+    color: #7a7a7a;
+    text-decoration: none;
+    cursor: default;
+}
+
+.pagination li.active {
+    border: dotted 1px #7a7a7a;
+}
+
+.pagination li.active a {
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.pagination li.disabled .first {
+    background: url("../Images/first_disabled.png") bottom no-repeat;
+    background-size: 10px 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.pagination .first {
+    background: url("../Images/first.png") bottom no-repeat;
+    background-size: 10px 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.pagination li.disabled .previous {
+    background: url("../Images/previous_disabled.png") bottom no-repeat;
+    background-size: 5px 10px;
+    width:5px;
+    height: 10px;
+}
+.pagination .previous {
+    background: url("../Images/previous.png") bottom no-repeat;
+    background-size: 5px 10px;
+    width: 5px;
+    height: 10px;
+}
+
+.pagination li.disabled .next {
+    background: url("../Images/next_disabled.png") bottom no-repeat;
+    background-size: 5px 10px;
+    width:5px;
+    height: 10px;
+}
+
+.pagination .next {
+    background: url("../Images/next.png") bottom no-repeat;
+    background-size: 5px 10px;
+    width: 5px;
+    height: 10px;
+}
+
+.pagination li.disabled .last {
+    background: url("../Images/last_disabled.png") bottom no-repeat;
+    background-size: 10px 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.pagination .last {
+    background: url("../Images/last.png") bottom no-repeat;
+    background-size: 10px 10px;
+    width: 10px;
+    height: 10px;
+}
+
+/**************************************************************************************************************************/
+/* Date & Time picker                                                                                                     */
+/**************************************************************************************************************************/
+.btn-group > .fsButtons {
+    margin: 0 auto 0 auto;
+}
+
+.btn-group {
+    width: 100%;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4285;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-default[disabled], .text-muted {
+    color:gray;
+    background-color: lightgray;
+}
+
+.btn-info {
+    background-color:red;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+}
+
+.calendarPopup {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.calendarPopup .fsTableHeader .btn {
+    background: none;
+    color:white;
+    border: none;
+    text-decoration: underline;
+}
+
+.calendarPopup .fsTableHeader .btn[disabled] {
+    text-decoration: none;
+}
+
+.calendarPopup .fsTableHeader .btn img {
+    height: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.timepicker tbody .text-center td a {
+    padding: 0;
+}
+
+.timepicker tbody .text-center td a img {
+    width: 16px;
+}
+
+.numberInput {
+    width: 2em !important;
+}
+
+/**************************************************************************************************************************/
+/* List Box                                                                                                               */
+/**************************************************************************************************************************/
+.list-box {
+    display: table;
+}
+
+.list-box>div {
+    display: table-row;
+}
+
+.list-box span {
+    display: table-cell;
+}
+
+.list-box select {
+    width: 600px;
+}
+
+
+/**************************************************************************************************************************/
+/* Security Service IFrame dialog                                                                                                            */
+/**************************************************************************************************************************/
+.ui-widget-header {
+    background: linear-gradient(red, black);
+    border: none;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fc4f2077-ac88-482d-9074-82000e54cc8e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://web4-ag-plt/emailservice/emailservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmailService.xsd" MetadataType="Schema" ID="9bfb8062-6eeb-4a0c-9f75-7fd8a5cfd121" SourceId="1" SourceUrl="http://web4-ag-plt/EmailService/EmailService.svc?xsd=xsd3" />
+    <MetadataFile FileName="EmailService1.xsd" MetadataType="Schema" ID="19bd3f8f-511e-4166-9f02-75cc2bdbe551" SourceId="1" SourceUrl="http://web4-ag-plt/EmailService/EmailService.svc?xsd=xsd2" />
+    <MetadataFile FileName="EmailService2.xsd" MetadataType="Schema" ID="c5d30364-80d1-4a95-8680-9e46c91097ef" SourceId="1" SourceUrl="http://web4-ag-plt/EmailService/EmailService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EmailService3.xsd" MetadataType="Schema" ID="20b3ff7b-d150-4464-9347-256bfa8ec569" SourceId="1" SourceUrl="http://web4-ag-plt/EmailService/EmailService.svc?xsd=xsd0" />
+    <MetadataFile FileName="EmailService.disco" MetadataType="Disco" ID="fd9b9f84-2e1b-46b9-b1ba-374153dc3962" SourceId="1" SourceUrl="http://web4-ag-plt/EmailService/EmailService.svc?disco" />
+    <MetadataFile FileName="EmailService.wsdl" MetadataType="Wsdl" ID="a8c467c4-d3db-4f92-8476-6fd610667018" SourceId="1" SourceUrl="http://web4-ag-plt/EmailService/EmailService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

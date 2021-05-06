@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EmailService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EmailService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="SqlEmail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AttachmentFileLocation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Bcc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsAttachment" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsHtmlBody" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Query" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="QueryFileName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SqlServer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="To" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SqlEmail" nillable="true" type="tns:SqlEmail" />
+</xs:schema>

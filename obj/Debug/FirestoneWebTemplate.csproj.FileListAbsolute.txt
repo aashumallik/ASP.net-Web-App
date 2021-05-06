@@ -1,0 +1,71 @@
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csproj.CoreCompileInputs.cache
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.dll.config
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.dll
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.pdb
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csproj.CopyComplete
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.dll
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.pdb
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.dll
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\Microsoft.Web.Infrastructure.dll
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.Razor.dll
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.Deployment.dll
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.xml
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\Microsoft.Web.Infrastructure.xml
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.Razor.xml
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.Deployment.xml
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\bin\Newtonsoft.Json.dll
+P:\TFS_DEVELOPMENT\Firestone Web Template\Master\FirestoneWebTemplate\bin\bin\System.Web.Helpers.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\bin\Newtonsoft.Json.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\bin\System.Web.Helpers.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.dll.config
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.pdb
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\Microsoft.Web.Infrastructure.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.Razor.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.Deployment.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.xml
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\Microsoft.Web.Infrastructure.xml
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.Razor.xml
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.Deployment.xml
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csproj.CoreCompileInputs.cache
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csproj.CopyComplete
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.dll
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.pdb
+P:\TFS_PRODUCTION\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csprojAssemblyReference.cache
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csprojAssemblyReference.cache
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csproj.CoreCompileInputs.cache
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\bin\Newtonsoft.Json.dll
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\bin\System.Web.Helpers.dll
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.dll.config
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.dll
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\FirestoneWebTemplate.pdb
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.dll
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\Microsoft.Web.Infrastructure.dll
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.Razor.dll
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.Deployment.dll
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.xml
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\Microsoft.Web.Infrastructure.xml
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.Razor.xml
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\bin\System.Web.WebPages.Deployment.xml
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csproj.CopyComplete
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.dll
+P:\TFS_Prod\IT\Web\Firestone Web Template\Master\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.pdb
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\bin\Newtonsoft.Json.dll
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\bin\System.Web.Helpers.dll
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\FirestoneWebTemplate.dll.config
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\FirestoneWebTemplate.dll
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\FirestoneWebTemplate.pdb
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\System.Web.WebPages.dll
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\Microsoft.Web.Infrastructure.dll
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\System.Web.Razor.dll
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\System.Web.WebPages.Deployment.dll
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\System.Web.WebPages.xml
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\Microsoft.Web.Infrastructure.xml
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\System.Web.Razor.xml
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\bin\System.Web.WebPages.Deployment.xml
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csprojAssemblyReference.cache
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csproj.CoreCompileInputs.cache
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.csproj.CopyComplete
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.dll
+P:\TFS\Development 2\Intern Workspace\Aashu\Final Proj\FirestoneWebTemplate\obj\Debug\FirestoneWebTemplate.pdb
